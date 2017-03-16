@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html> 
+<html lang="en-us">
+<head> 
+    <meta charset="UTF-8">
+    <title>Star Wars!</title>
+    <!-- reset -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!--  css  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <link href='https://fonts.googleapis.com/css?family=Inconsolata:700' rel='stylesheet' type='text/css'>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Itim|Montserrat" rel="stylesheet"> 
+
+
+</head>
+
+<body>
+<header style="display: flex; justify-content: center"> 
+
+    <!--Header image -->
+    <img id="header image" src="assets/images/starwars.png" alt="main intro image" width="1920px" height="406px">
+    
+
+</header>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <!-- All characters start here / Choose characters section -->
+            <div class="chooseCharBox">
+            <!--Darth Vader -->
+                <div type="button" class="character char1 col-md-3" charId='Darth Vader' health='120' attack='8' counterAttack="15">
+                <h3>Darth Vader</h3>
+                <img class="starImage" src="assets/images/darthvader.jpg">
+                <p>120</p>
+                </div>
+           <!-- Benkenobi -->
+                <div type="button" class="character char2 col-md-3" charId='Benkenobi' health='130' attack='7' counterAttack="13">
+                <h3>Benkenobi</h3>
+                <img class="starImage" src="assets/images/benkenobi.jpg">
+                <p>130</p>
+                </div> 
+                <!-- Finn -->
+                <div type="button" class="character char3 col-md-3" charId='Finn' health='110' attack='10' counterAttack="12">
+                <h3>Finn</h3>
+                <img class="starImage" src="assets/images/finn.jpg">
+                <p>135</p>
+                </div> 
+                <!-- Rey -->
+                <div type="button" class="character char4 col-md-3" charId='Rey' health='125' attack='6' counterAttack="17">
+                <h3>Rey</h3>
+                <img class="starImage" src="assets/images/rey.jpg">
+                <p>140</p>
+                </div>      
+            </div>
+        <!-- Enemies Section -->
+        <div class="row">
+
+            <div class='enemieSection col-md-12'>Enemies available to attack</div>
+            </div>
+            <!-- Fight Section -->
+            <div class="row">
+                    <div class='fightSection col-md-4'>
+                    <button class='attackBtn'>Attack</button>
+                    <div class="defenderSection col=md-4"></div>
+            </div>
+            </div>
+
+</body>
+
+<!-- Latest compiled and minified JavaScript for bootstrap
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</html>
+</html>

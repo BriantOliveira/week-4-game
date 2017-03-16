@@ -1,0 +1,47 @@
+/* Body and background */
+body {
+  background-color: brown;
+  font-family: 'Montserrat', sans-serif;
+}
+
+}
+.characterWrapper {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#gameMessage {
+  text-align: center;
+  font-size: 10px;
+}
+#choose-enemy-button {
+  visibility: hidden;
+}
+#restart-button {
+  visibility: hidden;
+}
+#turn-counter {
+  font-size: 150%;
+}
+/* Character rendering */
+
+.charSection {
+    width: 570px;
+    height: 150px;
+    margin: 10px 0 0 10px;
+    background-color: orange; 
+}
+
+.enemieSection {
+    width: 570px;
+    height: 150px;
+    margin: 60px 0 0 10px;
+    background-color: orange; 
+}
+
+.fightSection {
+    width: 570px;
+    height: 150px;
+    margin: 60px 0 0 10px;
+    background-color: orange; 
+}
